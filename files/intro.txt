@@ -1,3 +1,0 @@
-Usuario: creycob2
-contraseña: sajicu17
-Base de datos de SAP: Tubos_SalesForce
