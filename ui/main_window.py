@@ -948,7 +948,7 @@ ${datos.get('total', 0.00)} {datos.get('moneda', 'MXN')}"""
         
         try:
             ruta_excel_temp = self.generar_excel_temporal()
-            self.crear_pdf_cotizacion(path_save, ruta_excel=ruta_excel_temp)
+            self.crear_pdf_cotizacion(path_save, rutaexcel=ruta_excel_temp)
             
             if ruta_excel_temp and os.path.exists(ruta_excel_temp):
                 try:
